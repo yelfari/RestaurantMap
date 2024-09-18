@@ -1,6 +1,6 @@
 # React Restaurant Map
 
-Little Restaurant Map for Berlin in React
+Little Restaurant Map forin React
 
 ## Available Scripts
 
