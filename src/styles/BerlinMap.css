@@ -1,0 +1,56 @@
+
+@import url("~leaflet/dist/leaflet.css");
+
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+
+
+  .leaflet-popup-content {
+    max-width: 200px; /* Adjust as needed */
+    word-wrap: break-word;
+  }
+  
+  
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  .AddMarkerButton {
+    position: absolute; /* Use absolute positioning to move it outside the flow */
+    right: 10px; /* Adjust this value to control how far left it is */
+    top: 10px; /* Adjust this to position it vertically */
+    z-index: 400; /* Keep the z-index high so it stays above other elements */
+    
+    width: 70px; /* Set a slightly larger width to give the text room */
+    height: 40px; /* Adjust the height as needed */
+    
+    display: flex; /* Use flexbox to center the text */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    
+    color: black;
+    background-color: rgb(245, 240, 240);
+    border: 1px solid rgb(92, 83, 83); /* Corrected typo: "sold" to "solid" */
+    cursor: pointer; /* Optional: add a pointer cursor on hover */
+    font-weight: bold;
+    opacity: .75;
+}
+
+ 
+  
+
+
+  

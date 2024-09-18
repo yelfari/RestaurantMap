@@ -1,0 +1,61 @@
+
+.filter-menu {
+    margin-top: 5px; 
+    display: contents;
+    padding: 10px;
+    flex-direction: column;   
+  }
+  
+  .filter-menu button {
+    margin: 5px 5px;
+    padding: 15px;
+    background-color: rgb(123, 124, 115);
+    border: red;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .filter-menu button:hover {
+    transform: scale(1.12);
+  }
+  
+  .filter-menu button.active {
+    background-color: rgb(72, 180, 212);
+    color: rgb(0, 0, 0);
+  }
+
+  .add-marker-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .form-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between label and input */
+    margin-bottom: 10px;
+    width: 100%; /* Optional: makes the label take up full width */
+  }
+  
+  .form-label input {
+    flex: 1; /* Makes the input take up the remaining space */
+    padding: 5px;
+    margin-left: 10px; /* Creates space between label text and input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Text above Custom Marker Creation Menu */
+  .add-marker-form h3{ 
+    color: rgb(54, 150, 150);
+  }
+
+  .add-marker-form button{ 
+    margin: 5px 5px;
+    padding: 5px;
+    background-color: rgb(72, 180, 212);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }

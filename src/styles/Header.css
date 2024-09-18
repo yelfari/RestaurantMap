@@ -1,0 +1,10 @@
+/* src/Header.css */
+.Header {
+    background-color: #db4b4b;
+    position: relative;
+    width: 100%;
+    color: #602bb6;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }

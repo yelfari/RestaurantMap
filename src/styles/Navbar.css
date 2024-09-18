@@ -1,0 +1,39 @@
+/* src/Navbar.css */
+.Navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .Navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Navbar ula {
+
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+    list-style: none;
+    
+  }
+  
+  .Navbar li {
+    margin: 0 15px;
+  }
+  
+  .Navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  
+  .Navbar a:hover {
+    background-color: #b13a3a;
+    border-radius: 4px;
+  }
+
